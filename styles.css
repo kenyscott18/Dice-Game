@@ -39,3 +39,15 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.roll-button {
+  display: block;
+  margin: 30px auto 0 auto;  /* centers horizontally */
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: green;
+  font-weight: bold;
+}
+
