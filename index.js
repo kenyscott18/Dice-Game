@@ -1,4 +1,6 @@
-var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+function rollDice() {
+    
+    var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 var randomDiceImage = "dice" + randomNumber1 + ".png";
 
@@ -25,4 +27,5 @@ else if (randomNumber1 < randomNumber2)  {
 
 else {
     document.querySelector("h1").innerHTML = "Draw!"
+}
 }
